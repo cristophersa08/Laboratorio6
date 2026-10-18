@@ -1,17 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Creación de las Estrellas</title>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #c5cde0; 
+    }
+
+    .fondo {
+      background-image: url('img/fondouniverso.avif'); 
+
+      background-color: #000000; 
+      
+      background-size: cover;
+      background-position: center;
+      height: 100vh; 
+    }
+
+    .barra {
+      background-color: #0d1630;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between; 
+    }
+
+    .barra p {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .barra a {
+      color: #c5cde0;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+
+    .caja {
+      background-color: #111a35;
+      width: 90%;
+      max-width: 500px;
+      margin: 100px auto; 
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #f1f5ff;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #a78bfa;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .boton {
+      display: block; 
+      background-color: #0d1630;
+      color: #c5cde0;
+      text-decoration: none;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: 1px solid #a78bfa; 
+      border-radius: 5px;
+    }
+
+    .boton:hover {
+      background-color: #a78bfa;
+      color: #0d1630;
+    }
+  </style>
 </head>
 <body>
-    <nav class="menu">
-        <a href="">Pagina 1</a>
-        <a href="">Pagina 2</a>
-        <a href="">Pagina 3</a>
-    </nav>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic esse suscipit quae laboriosam porro, sunt molestias tempora est quis labore, doloremque dolorum consequatur, id nobis eum eaque corporis cumque. Repellendus.</h1>
-    <img src="logofime.jpg" alt="">
+
+  <div class="fondo">
+    
+    <div class="barra">
+      <p>Creación de las Estrellas</p>
+      <div>
+        <a href="index.html">Inicio</a>
+        <a href="pagina1.html">Página 1</a>
+        <a href="pagina2.html">Página 2</a>
+        <a href="pagina3.html">Página 3</a>
+      </div>
+    </div>
+
+    <div class="caja">
+      <h1>CREACIÓN DE LAS ESTRELLAS</h1>
+      <h2>Selecciona un tema</h2>
+      
+      <a href="pagina1.html" class="boton">Formación y nacimiento de las estrellas</a>
+      <a href="pagina2.html" class="boton">Procesos nucleares en las estrellas</a>
+      <a href="pagina3.html" class="boton">Evolución de las estrellas</a>
+    </div>
+
+  </div>
+
 </body>
 </html>
